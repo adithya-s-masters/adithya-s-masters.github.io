@@ -1,0 +1,26 @@
+country,year,co2_emissions_mt
+United States,2000,6000
+United States,2005,5800
+United States,2010,5400
+United States,2015,5000
+United States,2020,4800
+China,2000,3000
+China,2005,4500
+China,2010,7000
+China,2015,9000
+China,2020,10000
+India,2000,1000
+India,2005,1400
+India,2010,2000
+India,2015,2500
+India,2020,2800
+Germany,2000,900
+Germany,2005,850
+Germany,2010,800
+Germany,2015,750
+Germany,2020,700
+Brazil,2000,400
+Brazil,2005,450
+Brazil,2010,500
+Brazil,2015,520
+Brazil,2020,550
