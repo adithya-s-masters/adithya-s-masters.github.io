@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #1f1f1f, #2e2e38);
+    color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#chart {
+    margin-top: 30px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    position: relative;
+}
+
+svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.legend {
+    position: absolute;
+    top: 30px;
+    right: -180px; /* Move legend outside chart area */
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    min-width: 150px;
+}
+
+.legend rect {
+    rx: 2;
+    ry: 2;
+}
+
+.legend text {
+    fill: white !important;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #4cafef;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #357ac9;
+}
+
+#tooltip {
+    position: absolute;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    pointer-events: none;
+    color: #333;
+}
+
+.annotation-connector,
+.note-line {
+    opacity: 0;
+}
+
+select {
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: white;
+    color: #333;
+}
